@@ -40,6 +40,7 @@
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXA-bH-q8H">
                                 <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="szd-GG-ciT"/>
                                 </constraints>
@@ -62,7 +63,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="scrollView" destination="xXA-bH-q8H" id="Vjh-cw-281"/>
+                        <outlet property="scrollView" destination="xXA-bH-q8H" id="adq-jP-SQB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
