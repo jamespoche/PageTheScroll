@@ -39,7 +39,10 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXA-bH-q8H">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="szd-GG-ciT"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,12 +54,11 @@
                             <constraint firstItem="vQG-pN-OGh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MBe-gq-OWE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xXA-bH-q8H" secondAttribute="bottom" id="Ult-ie-4G9"/>
                             <constraint firstItem="vQG-pN-OGh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VeG-WZ-kKw"/>
+                            <constraint firstItem="xXA-bH-q8H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hDB-Fz-OfE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vQG-pN-OGh" secondAttribute="bottom" id="mQS-nE-gQp"/>
-                            <constraint firstItem="xXA-bH-q8H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qfo-U7-VyW"/>
                             <constraint firstAttribute="trailing" secondItem="vQG-pN-OGh" secondAttribute="trailing" id="rdM-q4-boT"/>
                             <constraint firstItem="LZb-v9-GFM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="sED-yp-0Mg"/>
                             <constraint firstItem="bV1-11-0HW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="u2Z-VO-UAx"/>
-                            <constraint firstAttribute="trailing" secondItem="xXA-bH-q8H" secondAttribute="trailing" id="ybh-AU-aNK"/>
                         </constraints>
                     </view>
                     <connections>
